@@ -1,0 +1,111 @@
+
+         .head{
+    
+            color:white;
+            background: green;
+            height: 200px;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+        .manu-bar{
+        height:75px;
+        
+        background-color:rgb(0, 100, 0);
+        text-align-last: center;
+        
+
+    }
+    .manu-bar UL{
+        display: inline-flex;
+        list-style: none;
+        color: white;
+    }
+    .manu-bar UL LI{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+    }
+    .manu-bar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .Active, .manu-bar UL LI:hover{
+        background: #2bab0d;
+        border-radius: 3px;
+    }
+.sub-manu-1{
+    display: none;
+}
+.manu-bar UL LI:hover .sub-manu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.manu-bar UL LI:hover .sub-manu-1 UL{
+
+    display: block;
+    margin: 15px;
+
+}
+.manu-bar UL LI:hover .sub-manu-1 UL LI{
+  
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align-last: left;
+}
+.manu-bar UL LI:hover .sub-manu-1 UL LI:last-child{
+    border-bottom: none;
+}
+.manu-bar UL LI:hover .sub-manu-1 UL LI a:hover{
+color: yellow;
+}
+        .marquee{
+            color:white;
+            background: gray;
+            margin-top:0px;
+            }
+            
+        .saidbar1{
+                 height:600px;
+                 width: 30%;
+                 background:yellow;
+                 float: left;
+                
+                }
+         .saidbar2{
+                    height: 600px;
+                    width: 70%;
+                    background:lightpink;
+                    float:left ;
+                    padding:10px 10px;
+
+                }
+        .logo{
+            color: white;
+                 height: 50px;
+                 width: 100%;
+                 background:green;
+                 text-align: center;
+                 }
+                 H3{
+                     margin-top: 5px;
+                     border:solid 2px;
+                 background:rgb(241, 33, 241);
+                 text-align: center;
+
+                 }
+        .footer{
+                color:rgb(0, 100, 0);
+                background: rgb(142, 240, 142);
+                height: 200px;
+                width: 100%;
+                text-align: center;
+                padding:50PX;
+                }
+        
